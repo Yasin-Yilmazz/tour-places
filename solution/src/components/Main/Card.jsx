@@ -1,7 +1,5 @@
 const Card = (data) => {
-  console.log("ne geliyo", data);
   const { id, title, image, desc } = data;
-  console.log(id);
   return (
     <div className="cards">
       <div className="title">
